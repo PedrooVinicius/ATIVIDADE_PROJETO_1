@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 26px 0 26px 0;
+    background-color: rgba(8, 66, 8, 0.906);
+    color: blanchedalmond;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+header nav li{
+    display: inline;
+    font-size: 18px;
+}
+
+header nav li a {
+    display: inline;
+    color: #ecf0f1;
+    margin-left: 4px;
+    text-decoration: none;
+    padding: 4px 40px;
+    font-size: 24px;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
